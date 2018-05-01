@@ -11,7 +11,7 @@
     /* background-image: url("img_parallax.jpg"); */
 
     /* Set a specific height */
-    height: 81vh;
+    height: 650px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -19,12 +19,22 @@
     background-size: cover;
 }
 
+.last-parallax {
+  /* Set a specific height */
+  height: 575px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .parallax-big {
     /* The image used */
     /* background-image: url("img_parallax.jpg"); */
 
     /* Set a specific height */
-    height: 110vh;
+    height: 850px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -35,14 +45,21 @@
 .filter-big {
   padding-top: 40px;
   background-color: rgba(0,0,0,0.65);
-  height: 110vh;
+  height: 850px;
   width: 100%;
 }
 
+.last-filter {
+  padding-top: 40px;
+  background-color: rgba(0,0,0,0.65);
+  height: 575px;
+  width: 100%;
+
+}
 .filter {
   padding-top: 40px;
   background-color: rgba(0,0,0,0.65);
-  height: 81vh;
+  height: 650px;
   width: 100%;
 
 }
@@ -57,7 +74,8 @@
   background-color: rgba(255,255,255, 0.9);
   border-radius: 15px;
   padding: 30px;
-  height: 65vh;
+  height: 500px;
+  overflow:hidden;
 }
 
 .text_row {
@@ -67,11 +85,21 @@
   margin: 10px;
 }
 
+.edge_row {
+  background-color: rgba(255,255,255, 0.9);
+  padding: 30px;
+  height: 84px;
+}
+
+.interests {
+  padding-left:0px;
+  padding-right: 0px;
+}
+
 .selfimage {
-  max-height: 65vh;
+  max-height: 500px;
   border-radius: 20px;
   border: black 2px solid;
-  bottom: 5vh;
 }
 
 .prjlink {
@@ -80,4 +108,22 @@
 }
 #name {
   margin-left: 15px;
+}
+
+.filter-row {
+  background-color: rgba(0,0,0,0.65);
+  height: 40px;
+}
+
+.filter-full-row {
+  background-color: rgba(0,0,0,0.65);
+  height: 84px;
+}
+
+.filter-part-row {
+  background-color: rgba(0,0,0,0.3);
+}
+.filter-rest {
+  background-color: rgba(0,0,0,0.65);
+  height: 79px;
 }
